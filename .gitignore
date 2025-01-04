@@ -1,5 +1,6 @@
 # 忽略build内的所有文件，而只保留文件夹
 build/*
-!build/.gitkeep  # 撇一个叫.gitkeep的空文件进去
+# 撇一个叫.gitkeep的空文件进去
+!build/.gitkeep  
 
 bin
