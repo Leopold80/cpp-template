@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 2.8)
 
 project(cpp-template)
 
-set(CMAKE_BUILD_TYPE "Debug")
+set(CMAKE_BUILD_TYPE "Debug")  # Debug编译
+#set(CMAKE_BUILD_TYPE "Release")  # Relese编译
 set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb")
 set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 
